@@ -5,6 +5,7 @@ variable "instance_type" {
 
 variable "key_name" {
   type = string
+  description = "version change"
 }
 
 variable "num_of_instance" {
